@@ -3,23 +3,23 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>Bolsa para Todos</title>
-  <meta name="description" content="Painel de Preço Justo da B3 com os métodos de Graham e Bazin.">
-  <meta name="theme-color" content="#0e1117">
+  <title>Bússola B3</title>
+  <meta name="description" content="Entenda, em linguagem simples, se o preço de uma ação está justo.">
+  <meta name="theme-color" content="#1a1236">
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="icon" href="icon-192.png">
   <link rel="apple-touch-icon" href="icon-192.png">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-title" content="Bolsa para Todos">
+  <meta name="apple-mobile-web-app-title" content="Bússola B3">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <style>
-    html, body { margin: 0; height: 100%; background: #0e1117; color: #fafafa;
+    html, body { margin: 0; height: 100%; background: #1a1236; color: #fafafa;
       font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
     #app { position: fixed; inset: 0; }
-    iframe { width: 100%; height: 100%; border: 0; display: block; background: #0e1117; }
+    iframe { width: 100%; height: 100%; border: 0; display: block; background: #1a1236; }
     #splash { position: fixed; inset: 0; display: flex; flex-direction: column;
-      align-items: center; justify-content: center; gap: 16px; background: #0e1117;
+      align-items: center; justify-content: center; gap: 16px; background: #1a1236;
       transition: opacity .4s ease; z-index: 2; }
     #splash.hide { opacity: 0; pointer-events: none; }
     #splash img { width: 96px; height: 96px; border-radius: 22px; }
@@ -36,12 +36,12 @@
 <body>
   <div id="splash">
     <img src="icon-192.png" alt="">
-    <h1>Bolsa para Todos</h1>
+    <h1>Bússola B3</h1>
     <div class="spinner"></div>
   </div>
 
   <div id="app">
-    <iframe id="frame" title="Bolsa para Todos" allow="clipboard-write; fullscreen"></iframe>
+    <iframe id="frame" title="Bússola B3" allow="clipboard-write; fullscreen"></iframe>
   </div>
 
   <div id="fallback">
